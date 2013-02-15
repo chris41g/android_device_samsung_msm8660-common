@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+                android:title="@string/charge_subcat_title">
+    <CheckBoxPreference
+                android:key="use_fast_charging"
+                android:title="@string/use_fast_charging_title_head"
+                android:summary="@string/use_fast_charging_summary_head"
+                android:defaultValue="false"
+                />
+    </PreferenceCategory>
+</PreferenceScreen>
+

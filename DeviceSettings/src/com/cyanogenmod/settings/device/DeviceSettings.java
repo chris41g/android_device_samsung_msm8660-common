@@ -40,6 +40,7 @@ public class DeviceSettings extends FragmentActivity {
     public static final String KEY_MDNIE_OUTDOOR = "mdnie_outdoor";
     public static final String KEY_HSPA = "hspa";
     public static final String KEY_USE_GYRO_CALIBRATION = "use_gyro_calibration";
+    public static final String KEY_USE_FAST_CHARGING = "use_fast_charging";
     public static final String KEY_CALIBRATE_GYRO = "calibrate_gyro";
     public static final String KEY_TOUCHSCREEN_SENSITIVITY = "touchscreen_sensitivity";
     public static final String KEY_TOUCHKEY_LIGHT = "touchkey_light";
@@ -66,6 +67,8 @@ public class DeviceSettings extends FragmentActivity {
                 mDNIeFragmentActivity.class, null);
         mTabsAdapter.addTab(bar.newTab().setText(R.string.category_sensors_title),
                 SensorsFragmentActivity.class, null);
+        mTabsAdapter.addTab(bar.newTab().setText(R.string.category_charging_title),
+                ChargingFragmentActivity.class, null);
 
         if (savedInstanceState != null) {
             bar.setSelectedNavigationItem(savedInstanceState.getInt("tab", 0));

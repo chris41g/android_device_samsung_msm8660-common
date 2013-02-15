@@ -28,6 +28,7 @@ public class Startup extends BroadcastReceiver {
         mDNIeMode.restore(context);
         mDNIeOutdoor.restore(context);
         SensorsFragmentActivity.restore(context);
+        ChargingFragmentActivity.restore(context);
     }
 
 }

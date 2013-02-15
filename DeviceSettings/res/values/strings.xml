@@ -31,4 +31,9 @@
     <string name="touchkey_bln_title_head">Enable keys notifications</string>
     <string name="touchkey_bln_summary_head">Light up touch keys when screen is off, and a notification is received</string>
 
+    <string name="category_charging_title">Charging</string>
+    <string name="charge_subcat_title">Charging</string>
+    <string name="use_fast_charging_title_head">Force Fast Charging</string>
+    <string name="use_fast_charging_summary_head">Force Fast Charging if your kernel supports it.</string>
+
 </resources>
