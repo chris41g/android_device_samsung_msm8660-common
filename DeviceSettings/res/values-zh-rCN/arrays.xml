@@ -15,38 +15,38 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="mdnie_scenario_entries">
-        <item>Caméra (Par défaut)</item>
-        <item>Vidéo</item>
-        <item>Vidéo (chaud)</item>
-        <item>Video (froid)</item>
-        <item>UI</item>
-        <item>Navigation</item>
-        <item>Gallerie</item>
+        <item>相机 (默认)</item>
+        <item>影片</item>
+        <item>影片 (温)</item>
+        <item>影片 (冷)</item>
+        <item>界面</item>
+        <item>导航</item>
+        <item>图库</item>
         <item>VT</item>
     </string-array>
     <string-array name="mdnie_mode_entries">
-        <item>Standard (Par défaut)</item>
-        <item>Dynamique</item>
-        <item>Naturel</item>
-        <item>Vidéo</item>
+        <item>标准 (默认)</item>
+        <item>动态</item>
+        <item>自然</item>
+        <item>电影</item>
     </string-array>
     <string-array name="mdnie_negative_entries">
-        <item>Normal</item>
-        <item>Inversé</item>
+        <item>正常</item>
+        <item>反色</item>
     </string-array>
     <string-array name="mdnie_outdoor_entries">
-        <item>Inactif (Par défaut)</item>
-        <item>Actif</item>
+        <item>关闭 (默认)</item>
+        <item>开启</item>
     </string-array>
     <string-array name="panel_gamma_entries">
-        <item>2.2 (Par défaut)</item>
+        <item>2.2 (默认)</item>
         <item>1.9</item>
     </string-array>
     <string-array name="touchscreen_sensitivity_entries">
         <item>10</item>
         <item>20</item>
         <item>30</item>
-        <item>50 (Par défaut)</item>
+        <item>50 (默认)</item>
         <item>70</item>
         <item>100</item>
     </string-array>
